@@ -2,9 +2,9 @@
 
 ## Game Engineer | Fullstack Developer
 
-Hey there !
-Welcome to my little garage of game mechanics.
-I'm pasionate to create worlds with alive objects to interact with them.
+Hey there !\n
+Welcome to my little garage of game mechanics.\n
+I'm pasionate to create worlds with alive objects and interact with them.\n
 
 ## What I do
 * Design system architecture
