@@ -14,4 +14,4 @@ I'm pasionate to create worlds with alive objects and interact with them.
 
 > Do not get lost in the labirint
 
-[Match-3 core mechanics prototype](https://edanvayan.github.io/match_web_build)
+[Match-3 core mechanics prototype](https://edavanyan.github.io/match_web_build)
