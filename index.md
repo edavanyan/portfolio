@@ -1,15 +1,21 @@
-# This is a heading
+# Edgar Avanyan's Game Engineer Portfolio
 
-## Here's a smaller heading
+## Game Engineer | Fullstack Developer
 
-This is a paragraph
+Hey there !
+Welcome to my little garage of game mechanics.
+I'm pasionate to create worlds with alive objects to interact with them.
 
-* Here's a bulleted list
-* Another item
+## What I do
+* Design system architecture
+* Bring everything to motion
+* Create network
+* Make simulations
+* Solve puzzles
+* Organize data
+* Investigate exceptional cases
+* Drink coffee
 
-1. And an ordered list
-1. The numbers don't matter
+> Do not get lost in the labirint
 
-> This is a qoute
-
-[This is a link to Google](https://google.com)
+[Match-3 core mechanics prototype](https://edavayan.github.io/match_web_build)
