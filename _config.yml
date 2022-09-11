@@ -19,7 +19,7 @@
 title: Edgar Avanyan's Game Engineer Portfolio
 email: edgar.avanyan@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Game Engineer | > Fullstack Developer
+  Game Engineer | Fullstack Developer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  edavanyan
