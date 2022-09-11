@@ -1,8 +1,15 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+# This is a heading
 
-layout: home
----
+## Here's a smaller heading
 
-Edgar
+This is a paragraph
+
+* Here's a bulleted list
+* Another item
+
+1. And an ordered list
+1. The numbers don't matter
+
+> This is a qoute
+
+[This is a link to Google](https://google.com)
