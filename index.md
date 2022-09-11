@@ -1,6 +1,6 @@
 Hey there !
-Welcome to my little garage of game mechanics.
-I'm pasionate to create worlds with alive objects and interact with them.
+>Welcome to my little garage of game mechanics.
+>I'm pasionate to create worlds with alive objects and interact with them.
 
 ## What I do
 * Design system architecture
@@ -12,7 +12,12 @@ I'm pasionate to create worlds with alive objects and interact with them.
 * Investigate exceptional cases
 * Drink coffee
 
+[Match-3 core mechanics prototype](https://edavanyan.github.io/match_web_build) 
+>![screenshot4](https://user-images.githubusercontent.com/48799996/189553173-61d1307d-ed63-4104-9430-63d12f771d2a.png)
+
+>
+>
 > Do not get lost in the labirint
 
-[Match-3 core mechanics prototype](https://edavanyan.github.io/match_web_build)
-![screenshot4](https://user-images.githubusercontent.com/48799996/189552929-a85f6796-fff7-4aeb-9dd1-5c96011b7406.png)
+
+
