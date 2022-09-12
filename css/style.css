@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica;
+    font-family: sans-serif;
 }
 .info { 
     padding-top: 10px;
@@ -16,7 +16,6 @@
 }
 .image { 
     padding-top: 20px;
-    padding-left: 90px;
     align-items: center;
 }
 .header { 
