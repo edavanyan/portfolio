@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Edgar Avanyan</title>
     <link rel="stylesheet" href="./css/style.css"/>
+    <style>
+        @font-face {
+            font-family: "jacques";
+            src: url("./TTF/JacquesPro-Regular.ttf");
+        }
+    </style>
 </head>
 <body>
     <div class="header">
@@ -21,6 +27,7 @@
                 <h1 style="color: aliceblue; 
                 letter-spacing: 1.5px;
                 font-weight: bold;
+                font-family: jacques;
                  padding-bottom: 10px;">PORTFOLIO</h1>
                 <h2 style="color: aliceblue;">Edgar Avanyan</h2>
                 <h4 style="color: aliceblue; font-weight: lighter;">Game Engineer</h4>
@@ -55,14 +62,19 @@
             </p>
             <hr style ="color: rgba(240, 248, 255, 0.9);">
             <h3 style = "padding-top:30px; padding-left: 20px; padding-bottom: 15px; color: rgba(0, 0, 0, 0.85)">PERSONAL PROJECTS</h3>
-            <a style="line-height: 1.8; padding-left:20px; color:  rgba(0, 0, 0, 0.9);" href="https://edavanyan.github.io/match_web_build">
-                Core Match-3 mechanics prototype
-                <br>
-                <img 
-                data-type="image"
-                style="padding-bottom: 20px; padding-left:20px;"
-                src="screenshot4.png">
-            </a>
+            <table style="padding-top: 20px; padding-left: 20px;">
+                <td style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px; ">
+                    <h3 style="padding-bottom: 0px; padding-top:10px; color: rgba(0, 0, 0, 0.8);">Match-3</h3>
+                    <a style="line-height: 1.8; color:  rgba(0, 0, 0, 0.9);" href="https://edavanyan.github.io/match_web_build">
+                        Core mechanics prototype
+                        <br>
+                        <img 
+                        data-type="image"
+                        style="padding: 10px; padding-right: 20px; padding-left: 0px; width: 220px; height: 197px;"
+                        src="match-3.png">
+                    </a>
+                </td>
+            </table>
         </div>
     </div>
 </body>
