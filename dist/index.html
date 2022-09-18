@@ -108,27 +108,37 @@
                         </a>
                     </td>
                 </tr>
-                <tr><td><div style="height: 2em;"></div></td></tr>
+                <tr><td><div id = "raw_space_0" style="height: 2em;"></div></td></tr>
                 <tr id = "raw1">
                 </tr>
-                <tr><td><div style="height: 2em;"></div></td></tr>
+                <tr><td><div id = "raw_space_1" style="height: 2em;"></div></td></tr>
                 <tr id = "raw2">
                 </tr>
+                <tr><td><div id = "raw_space_2" style="height: 2em;"></div></td></tr>
                 <script>
-                    console.log(window.innerWidth)
+                    var space1 = document.getElementById("raw_space_1");
+                    var space1Parrent = space1.parentNode;
+                    space1.remove();
+                    var space2 = document.getElementById("raw_space_2");
+                    var space2Parrent = space2.parentNode;
+                    space2.remove();
                     if (window.innerWidth < 1069) {
                         var block1 = document.getElementById("block1")
                         var raw1 = document.getElementById("raw1")
                         raw1.append(block1)
+                        space1Parrent.append(space1)
                     }
                     if (window.innerWidth < 672) {
                         var block2 = document.getElementById("block2")
                         var raw2 = document.getElementById("raw2")
                         raw2.append(block2)
+                        space2Parrent.append(space2)
                     }
                 </script>
-                <tr><td><div style="height: 2em;"></div></td></tr>
             </table>
+            <h4 style = "padding-left: 20px; padding-bottom: 50px; color: rgba(0, 0, 0, 0.85)">
+                <a style="color:  rgba(0, 0, 0, 0.8);" href="https://edavanyan.github.io/portfolio/about.html">
+                Find out more about my commercial projects in my CV.</a></h4>
         </div>
     </div>
     <div class ="header">
