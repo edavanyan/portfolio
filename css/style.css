@@ -36,3 +36,8 @@
     background-size: cover;
     background-position: center;
 }
+@media (min-width: 359px) {
+    .hidden-ss {
+      display: none !important;
+    }
+  }

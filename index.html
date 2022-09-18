@@ -71,8 +71,8 @@
             <h3 style = "padding-top:30px; padding-left: 20px; padding-bottom: 15px; color: rgba(0, 0, 0, 0.85)">PERSONAL PROJECTS</h3>
             
             <table style="padding-top: 20px; padding-left: 20px; padding-bottom: 10px; row-gap: 30px;">
-                <tr>
-                    <td style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px; ">
+                <tr id = "raw0">
+                    <td id = "block0" style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px;">
                         <h3 style="padding-bottom: 0px; padding-top:10px; color: rgba(0, 0, 0, 0.8);">Match-3</h3>
                         <a style="line-height: 1.8; color:  rgba(0, 0, 0, 0.9);" href="https://edavanyan.github.io/match_web_build">
                             Core mechanics prototype
@@ -83,12 +83,8 @@
                             src="match-3.png">
                         </a>
                     </td>
-                </tr>
-                <tr>
-                    <td><div style="height: 2em;"></div></td>
-                </tr>
-                <tr>
-                    <td style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px; ">
+                    <td><div style="width: 3em;"></div></td>
+                    <td id = "block1" style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px;">
                         <h3 style="padding-bottom: 0px; padding-top:10px; color: rgba(0, 0, 0, 0.8);">PvP shooter</h3>
                         <a style="line-height: 1.8; color:  rgba(0, 0, 0, 0.9);" href="https://edavanyan.github.io/shooter_web_build">
                             Realtime multiplayer shooter
@@ -99,12 +95,8 @@
                             src="shooter.png">
                         </a>
                     </td>
-                </tr>
-                <tr>
-                    <td><div style="height: 2em;"></div></td>
-                </tr>
-                <tr>
-                    <td style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px; ">
+                    <td><div style="width: 3em;"></div></td>
+                    <td id = "block2" style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px;">
                         <h3 style="padding-bottom: 0px; padding-top:10px; color: rgba(0, 0, 0, 0.8);">Match-3</h3>
                         <a style="line-height: 1.8; color:  rgba(0, 0, 0, 0.9);" href="https://edavanyan.github.io/match_web_build">
                             Core mechanics prototype
@@ -116,6 +108,25 @@
                         </a>
                     </td>
                 </tr>
+                <tr><td><div style="height: 2em;"></div></td></tr>
+                <tr id = "raw1">
+                </tr>
+                <tr><td><div style="height: 2em;"></div></td></tr>
+                <tr id = "raw2">
+                </tr>
+                <script>
+                    console.log(window.innerWidth)
+                    if (window.innerWidth < 1069) {
+                        var block1 = document.getElementById("block1")
+                        var raw1 = document.getElementById("raw1")
+                        raw1.append(block1)
+                    }
+                    if (window.innerWidth < 672) {
+                        var block2 = document.getElementById("block2")
+                        var raw2 = document.getElementById("raw2")
+                        raw2.append(block2)
+                    }
+                </script>
             </table>
         </div>
     </div>
