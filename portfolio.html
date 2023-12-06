@@ -48,7 +48,7 @@
             </h3>
             <p style="padding:30px; padding-top: 0; color: rgba(0, 0, 0, 0.9);">
                 Discover the fusion of creativity and code on my personal showcase page.<br>
-                Here, I present two works that not only reflect my skills but also offer practical solutions to real-world challenges.<br>
+                Here, I present works that not only reflect my skills but also offer practical solutions to real-world challenges.<br>
             </p>
             <hr style ="color: rgba(240, 248, 255, 0.9);">
             <h3 style="padding:30px;padding-bottom: 5px;padding-left: 20px; color: rgba(0, 0, 0, 0.85);">
@@ -80,11 +80,10 @@
               </video>
             <hr style ="color: rgba(240, 248, 255, 0.9);">
 
-            <h3 style = "padding-top:30px; padding-left: 20px; padding-bottom: 15px; color: rgba(0, 0, 0, 0.85)">PERSONAL PROJECTS</h3>
-            
-            <table style="padding-top: 20px; padding-left: 20px; padding-bottom: 10px; row-gap: 30px;">
+            <h3 style = "padding-top:30px; padding-left: 20px; padding-bottom: 15px; color: rgba(0, 0, 0, 0.85)">💾 Past Creations 🕰️</h3>
+            <table style="padding-top: 20px; padding-left: 50px; padding-bottom: 10px; row-gap: 30px;">
                 <tr id = "raw0">
-                    <td id = "block0" style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px;">
+                    <!-- <td id = "block0" style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px;">
                         <h3 style="padding-bottom: 0px; padding-top:10px; color: rgba(0, 0, 0, 0.8);">PvP Shooter</h3>
                         <a style="line-height: 1.8; color:  rgba(0, 0, 0, 0.9);" href="https://edavanyan.github.io/shooter_web_build">
                             Real-time multilplayer
@@ -95,8 +94,8 @@
                             src="shooter.png">
                         </a>
                     </td>
-                    <td id = "space0"><div style="width: 3em;"></div></td>
-                    <td id = "block1" style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px;">
+                    <td id = "space0"><div style="width: 3em;"></div></td> -->
+                    <td id = "block0" style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px;">
                         <h3 style="padding-bottom: 0px; padding-top:10px; color: rgba(0, 0, 0, 0.8);">Physics Simulation</h3>
                         <a style="line-height: 1.8; color:  rgba(0, 0, 0, 0.9);" href="https://edavanyan.github.io/rope_web_build">
                             Tension in action
@@ -107,8 +106,8 @@
                             src="rope.png">
                         </a>
                     </td>
-                    <td id = "space1"><div style="width: 3em;"></div></td>
-                    <td id = "block2" style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px;">
+                    <td id = "space0"><div style="width: 3em;"></div></td>
+                    <td id = "block1" style = "border: 1px solid rgba(0, 0, 0, 0.25); padding-left: 20px;">
                         <h3 style="padding-bottom: 0px; padding-top:10px; color: rgba(0, 0, 0, 0.8);">Match-3</h3>
                         <a style="line-height: 1.8; color:  rgba(0, 0, 0, 0.9);" href="https://edavanyan.github.io/match_web_build">
                             Core mechanics prototype
@@ -124,19 +123,19 @@
                 <tr id = "raw1">
                 </tr>
                 <tr><td><div id = "raw_space_1" style="height: 2em;"></div></td></tr>
-                <tr id = "raw2">
-                </tr>
-                <tr><td><div id = "raw_space_2" style="height: 2em;"></div></td></tr>
+                <!-- <tr id = "raw2">
+                </tr> -->
+                <!-- <tr><td><div id = "raw_space_2" style="height: 2em;"></div></td></tr> -->
                 <script>
                     
                     let space1 = document.getElementById("raw_space_1");
                     let space1Parent = space1.parentNode;
                     
-                    let space2 = document.getElementById("raw_space_2");
-                    let space2Parent = space2.parentNode;
+                    //let space2 = document.getElementById("raw_space_2");
+                    //let space2Parent = space2.parentNode;
 
-                    let block2 = document.getElementById("block2")
-                    let raw2 = document.getElementById("raw2")
+                    //let block2 = document.getElementById("block2")
+                    //let raw2 = document.getElementById("raw2")
 
                     let block1 = document.getElementById("block1")
                     let raw1 = document.getElementById("raw1")
@@ -144,22 +143,22 @@
                     let raw0 = document.getElementById("raw0")
                     
                     let spaceHorizontal0 = document.getElementById("space0")
-                    let spaceHorizontal1= document.getElementById("space1")
+                    // let spaceHorizontal1= document.getElementById("space1")
                     
                     let onresize = function(event) {
                         spaceHorizontal0.remove();
-                        spaceHorizontal1.remove();
+                        // spaceHorizontal1.remove();
                         space1.remove();
-                        space2.remove();
+                        // space2.remove();
                         block1.remove();
-                        block2.remove();
+                        // block2.remove();
                         
                         if (window.innerWidth < 672) {                            
                             raw1.append(block1)
                             space1Parent.append(space1)
                             
-                            raw2.append(block2)
-                            space2Parent.append(space2)
+                            // raw2.append(block2)
+                            // space2Parent.append(space2)
                         } else if (window.innerWidth < 1069) {
                             raw0.append(spaceHorizontal0)
                             raw0.append(block1)
@@ -170,17 +169,14 @@
                             raw0.append(spaceHorizontal0)
                             raw0.append(block1)
 
-                            raw0.append(spaceHorizontal1)
-                            raw0.append(block2)
+                            // raw0.append(spaceHorizontal1)
+                            // raw0.append(block2)
                         }
                     }
                     onresize()
                     addEventListener('resize', onresize);
                 </script>
             </table>
-            <h4 style = "padding-left: 20px; padding-bottom: 50px; color: rgba(0, 0, 0, 0.85)">
-                <a style="color:  rgba(0, 0, 0, 0.8);" href="https://edavanyan.github.io/portfolio/about.html">
-                Find out more about my commercial projects in my CV.</a></h4>
         </div>
     </div>
     <div class ="header">
