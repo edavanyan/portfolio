@@ -444,10 +444,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	</body>
 </html>
 <script>
- window.onload = () => {
     var video1 = document.getElementById('video1');
-    video1.play();
     var video2 = document.getElementById('video2');
+ window.onload = () => {
+    video1.play();
     video2.play();
 };
+video1.addEventListener("visibilitychange", function() {
+        if (document.visibilityState === "visible" && myVideo.paused) {
+            video1.play();
+        }
+    });
+video2.addEventListener("visibilitychange", function() {
+        if (document.visibilityState === "visible" && myVideo.paused) {
+            video2.play();
+        }
+    });
 </script> 
