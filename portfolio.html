@@ -451,12 +451,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
     video2.play();
 };
 video1.addEventListener("visibilitychange", function() {
-        if (document.visibilityState === "visible" && myVideo.paused) {
+        if (document.visibilityState === "visible" && video1.paused) {
             video1.play();
         }
     });
 video2.addEventListener("visibilitychange", function() {
-        if (document.visibilityState === "visible" && myVideo.paused) {
+        if (document.visibilityState === "visible" && video2.paused) {
             video2.play();
         }
     });
