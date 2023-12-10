@@ -446,18 +446,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 <script>
     var video1 = document.getElementById('video1');
     var video2 = document.getElementById('video2');
+    console.log("start this script " + video1 + " " + video2.visibilityState);
  window.onload = () => {
     video1.play();
     video2.play();
 };
-video1.addEventListener("visibilitychange", function() {
-        if (document.visibilityState === "visible" && video1.paused) {
+document.addEventListener("visibilitychange" , () => {
+    console.log("docuiment visible " + video1.visibilityState)
             video1.play();
-        }
-    });
-video2.addEventListener("visibilitychange", function() {
-        if (document.visibilityState === "visible" && video2.paused) {
             video2.play();
-        }
-    });
+})
+
 </script> 
