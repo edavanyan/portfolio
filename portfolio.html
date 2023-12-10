@@ -61,7 +61,7 @@
 							Witness the magic of transformations.<br>
 							Marvel at the metamorphosis of objects through one million cubes, showcasing my commitment to pushing technical boundaries.<br>
 							Despite browser limitations, I offer a video demonstration and <a href="https://drive.google.com/drive/folders/1S5iiXcZ1r5Lk7A2cPlS5uoEUhRjLuyL2?usp=sharing">a downloadable link.</a><br></p>
-							<video width="390" muted autoplay loop playsinline>
+							<video id="video1" width="390" muted autoplay loop playsinline>
 								<source src="images/demo_transformations.mp4" type="video/mp4">
 							</video>
 					</section>
@@ -73,7 +73,7 @@
 								Choose your character - Archer, Mage, or Swordsman - and face waves of enemies on a dynamic, endless map.<br>
 								Collect XP loot and uncover rare weapon upgrades to enhance your abilities.<br>
 								It's a simple yet engaging showcase of my game development expertise.<br></p>
-							<video width="390" muted autoplay loop playsinline>
+							<video id="video2" width="390" muted autoplay loop playsinline>
 								<source src="images/grim_heal.mp4" type="video/mp4">
 							</video>
 							<br>
@@ -443,3 +443,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+<script>
+ window.onload = () => {
+    var video1 = document.getElementById('video1');
+    video1.play();
+    var video2 = document.getElementById('video2');
+    video2.play();
+};
+</script> 
